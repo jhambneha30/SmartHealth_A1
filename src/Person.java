@@ -1,6 +1,7 @@
 import java.util.Date;
 public class Person {
 	String username;
+	String password;
 	String primaryEmail;
 	String secondaryEmail;
 	String firstName;
