@@ -47,7 +47,7 @@ public class SmartHealth {
 		int flag = 0;
 		Scanner in = new Scanner(System.in);
 
-		System.out.println("Enter Credentials to Login. Enter 1 to go back to previous Menu.");
+		System.out.println("Enter 2 to Login. Enter 1 to go back to previous Menu.");
 		int choice = in.nextInt();
 		in.nextLine();
 		if(choice == 1)
@@ -118,6 +118,8 @@ public class SmartHealth {
 		{
 				userList.remove(userToBeDeleted);
 				deletedUserList.add(userToBeDeleted);
+				System.out.println("User deleted successfully");
+				main(null);
 		}
 		else
 			userProfilePage(userToBeDeleted.username);

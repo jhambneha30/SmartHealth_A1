@@ -8,6 +8,6 @@ public class Person {
 	String lastName;
 	String address;
 	String aboutMe;
-	String[] photoURL;
+	String[] photoURL = new String[3];
 	long regnTime;
 }
